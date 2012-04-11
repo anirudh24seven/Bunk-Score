@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/myRelativeLayout" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Subject"
+        android:gravity="center_horizontal"
+        android:id="@+id/add_subject_heading"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"	
+        android:id="@+id/nameHeading"
+        android:text="Subject Name:"
+        android:layout_below="@id/add_subject_heading"
+        ></TextView>
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameHeading"
+        android:id="@+id/nameOfSubject"
+        />
+
+    <RelativeLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_alignParentBottom="true"
+	  >
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="Add Subject"
+        android:id="@+id/add_subject"/>
+    </RelativeLayout> 
+</RelativeLayout>

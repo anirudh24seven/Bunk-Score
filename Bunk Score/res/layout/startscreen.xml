@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bunk Score"
+        android:textColor="#6EABE5"
+        android:typeface="serif"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add1"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/add"
+        android:onClick="addSubject"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"        
+        />
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/view1"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/view"
+        android:onClick="viewScore"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+    
+</LinearLayout>
